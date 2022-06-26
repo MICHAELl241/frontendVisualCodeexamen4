@@ -38,9 +38,9 @@ export class EstudianteService {
     return ListaEstudiantes;
   }
 
-  listarEstudiantesByEscuela(idescuela:number): Observable<any>{
+  listarEstudiantesByEscuela(idasignatura:number): Observable<any>{
 
-    return this.http.get(this.api+"/estudiante/list?idescuela="+idescuela)
+    return this.http.get(this.api+"/estudiante/list?idasignatura="+idasignatura)
   }
   resgistarAsignatura(estudiante:Estudiante):Observable<any>{
 

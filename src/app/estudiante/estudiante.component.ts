@@ -30,8 +30,8 @@ estudianteListaServidor: any;
     this.listarEstudiantesByEscuela(1);
   }
 
-  listarEstudiantesByEscuela(idescuela:number){
-    this.estudianteService.listarEstudiantesByEscuela(idescuela).subscribe((res:any) =>{
+  listarEstudiantesByEscuela(idasigantura:number){
+    this.estudianteService.listarEstudiantesByEscuela(idasigantura).subscribe((res:any) =>{
       this.estudianteListaServidor = res.data;
     }
 
