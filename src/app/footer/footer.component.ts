@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
-  autor: any ={"nombre":"herver","apellido":"Fernandez Gonzales","anio":2022 }
+  autor: any ={"nombre":"Michael Ricahrd","apellido":"Mauri Berrocal","anio":2022 }
   constructor() { }
 
   ngOnInit(): void {

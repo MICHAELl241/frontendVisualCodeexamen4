@@ -4,27 +4,27 @@ export const ListaEstudiantes: Estudiante[]=[
 
   {
     "idasignatura": 1,
-    "denominacion": "HISTORIA",
-    "sigla": "H001",
-    "credito": "12",
+    "denominacion": "Matematica",
+    "sigla": "M001",
+    "credito": "9",
 
 },
 {
   "idasignatura": 2,
-  "denominacion": "LENGUAJE",
-  "sigla": "L002",
-  "credito": "13",
+  "denominacion": "Programacion",
+  "sigla": "P002",
+  "credito": "15",
 },
 {
   "idasignatura": 3,
-    "denominacion": "PROGRAMACION",
-    "sigla": "P003",
+    "denominacion": "Arquitectura",
+    "sigla": "A003",
     "credito": "12",
 },
 {
   "idasignatura": 4,
-  "denominacion": "MODELADO",
-  "sigla": "M005",
-  "credito": "12",
+  "denominacion": "Procesosti",
+  "sigla": "PR004",
+  "credito": "10",
 }
 ]
