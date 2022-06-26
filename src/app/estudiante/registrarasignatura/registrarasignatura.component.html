@@ -1,0 +1,37 @@
+
+<div class="card bg-light">
+  <h5 class="card-header">{{titulo}}</h5>
+  <div class="card-body">
+    <form (ngSubmit) = "registrarAsignatura()">
+      <div class="row mb-3">
+        <label for="nombre" class="col-sm-2 col-form-label">Idasignatira</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" placeholder="Ingrese id de la asignatura" [(ngModel)]="escuela.idasignatura" name="nombre">
+        </div>
+      </div>
+      <div class="row mb-3">
+        <label for="apellido" class="col-sm-2 col-form-label">Credito</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" placeholder="Ingrese el credito de la asignatura" [(ngModel)]="escuela.credito" name="apellido">
+        </div>
+      </div>
+      <div class="row mb-3">
+        <label for="edad" class="col-sm-2 col-form-label">Denominación</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" placeholder="Ingrese denominacion" [(ngModel)]="escuela.denominacion" name="edad">
+        </div>
+      </div>
+      <div class="row mb-3">
+        <label for="edad" class="col-sm-2 col-form-label">Sigla</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" placeholder="Ingrese sigla" [(ngModel)]="escuela.sigla" name="edad">
+        </div>
+      </div>
+
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <button class="btn btn-primary me-md-2" type="button">Cancelar</button>
+          <button class="btn btn-primary" role="button">Registrar</button>
+        </div>
+    </form>
+  </div>
+</div>

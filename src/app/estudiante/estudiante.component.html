@@ -1,0 +1,27 @@
+<div class="card">
+  <h5 class="card-header">
+    Lista de estudianets de la escuela de inginieria de sistemas</h5>
+  <div class="card-body">
+    <table class="table caption-top">
+      <caption></caption>
+      <thead>
+        <tr>
+          <th scope="col">DENIMINACION</th>
+          <th scope="col">SIGLA</th>
+          <th scope="col">CREDITO</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let itemEstudiante of  estudianteLista">
+          <th>{{itemEstudiante.denominacion}}</th>
+          <td>{{itemEstudiante.sigla}}</td>
+          <td>{{itemEstudiante.credito}}</td>
+
+        </tr>
+        <tr>
+      </tbody>
+    </table>
+    <a  class="btn btn-primary" [routerLink]="['/estudiantes/registro']">Resgistrar Nuevo</a>
+  </div>
+</div>
